@@ -13,6 +13,8 @@
 		06036EE726769B32004DBC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06036EE626769B32004DBC42 /* Assets.xcassets */; };
 		06036EEA26769B32004DBC42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06036EE926769B32004DBC42 /* Preview Assets.xcassets */; };
 		06036EED26769B32004DBC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06036EEB26769B32004DBC42 /* LaunchScreen.storyboard */; };
+		06036EF626769B4B004DBC42 /* UiSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06036EF526769B4B004DBC42 /* UiSliderView.swift */; };
+		06036EFA26769C45004DBC42 /* SliderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06036EF926769C45004DBC42 /* SliderSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		06036EE926769B32004DBC42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06036EEC26769B32004DBC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06036EEE26769B32004DBC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06036EF526769B4B004DBC42 /* UiSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiSliderView.swift; sourceTree = "<group>"; };
+		06036EF926769C45004DBC42 /* SliderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				06036EE026769B31004DBC42 /* AppDelegate.swift */,
 				06036EE226769B31004DBC42 /* SceneDelegate.swift */,
 				06036EE426769B31004DBC42 /* ContentView.swift */,
+				06036EF526769B4B004DBC42 /* UiSliderView.swift */,
+				06036EF926769C45004DBC42 /* SliderSettingsView.swift */,
 				06036EE626769B32004DBC42 /* Assets.xcassets */,
 				06036EEB26769B32004DBC42 /* LaunchScreen.storyboard */,
 				06036EEE26769B32004DBC42 /* Info.plist */,
@@ -146,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				06036EE126769B31004DBC42 /* AppDelegate.swift in Sources */,
+				06036EF626769B4B004DBC42 /* UiSliderView.swift in Sources */,
 				06036EE326769B31004DBC42 /* SceneDelegate.swift in Sources */,
 				06036EE526769B31004DBC42 /* ContentView.swift in Sources */,
+				06036EFA26769C45004DBC42 /* SliderSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
